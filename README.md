@@ -3,22 +3,23 @@
 ```
 shopee
 ├─ config/
-│  ├─ keyword.env.sample
+│  └─ keyword.env.sample
 ├─ data/
 ├─ scripts/
-│  ├─ keyword_crontab
+│  └─ keyword_crontab
 ├─ services/
-│  ├─ keyword_service/
-│  │  ├─ module
-│  │  │  ├─ __init__.py
-│  │  │  └─ google_spreadsheets_module.py
-│  │  ├─ utils/
-│  │  │  ├─ __init__.py
-│  │  │  └─ mongo.py
-│  │  ├─ Dockerfile
-│  │  ├─ main.py
-│  │  ├─ README.md
-│  │  └─ requirements.txt
+│  └─ keyword_service/
+│     ├─ module
+│     │  ├─ __init__.py
+│     │  ├─ google_module.py
+│     │  ├─ kafka_module.py
+│     │  └─ mongo_module.py
+│     ├─ utils/
+│     │  └─ __init__.py
+│     ├─ Dockerfile
+│     ├─ main.py
+│     ├─ README.md
+│     └─ requirements.txt
 ├─ .gitattributes
 ├─ .gitignore
 ├─ docker-compose.yml
